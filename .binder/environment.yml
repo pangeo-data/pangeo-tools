@@ -1,0 +1,20 @@
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - numpy
+  - scipy
+  - matplotlib
+  - pandas
+  - bokeh
+  - xarray
+  - dask
+  - distributed
+  - intake
+  - intake-esm
+  - seaborn
+  - cartopy
+  - rise
+  - pip:
+    - jupyter-contrib-nbextensions
+
