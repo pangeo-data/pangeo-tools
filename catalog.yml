@@ -1,0 +1,10 @@
+plugins:
+  source:
+    - module: intake_xarray
+sources:
+  hadcrut4:
+    description: HADCRUT4
+    driver: netcdf
+    args:
+      urlpath: 'https://www.esrl.noaa.gov/psd/thredds/dodsC/Datasets/cru/hadcrut4/air.mon.anom.median.nc'
+      chunks: {}

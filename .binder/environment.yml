@@ -5,6 +5,8 @@ dependencies:
   - numpy
   - scipy
   - matplotlib
+  - hvplot
+  - datashader
   - pandas
   - bokeh
   - xarray
@@ -12,6 +14,14 @@ dependencies:
   - distributed
   - intake
   - intake-esm
+  - intake-xarray
+  - xesmf
+  - pydap
+  - climpred
+  - eofs
+  - regionmask
+  - xgcm
+  - xhistogram
   - seaborn
   - cartopy
   - rise
