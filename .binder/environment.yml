@@ -9,8 +9,7 @@ dependencies:
   - datashader
   - pandas
   - bokeh
-  - xarray
-  - dask
+  - xarray>=0.14.1
   - distributed
   - intake
   - intake-esm
